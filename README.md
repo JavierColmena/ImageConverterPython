@@ -6,8 +6,7 @@
 
 # Image Converter
 
-Convertidor de imagenes dentro de un directorio.
-
+Image converter within a directory.
 
 ## Get Started
 
@@ -20,7 +19,7 @@ Install the ``PILLOW`` library from Python
   python ./main.py -h
 ```
     
-## Comandos
+## Commands
 
 ### Help
 
@@ -28,7 +27,7 @@ Install the ``PILLOW`` library from Python
   python ./main.py -h
 ```
 
-### Ubicar el directorio con las imagenes. ***
+### Locate the directory with the images. ***
 
 ```bash
   -d "./Images/"
@@ -44,13 +43,13 @@ Install the ``PILLOW`` library from Python
   --fromExt "png"
 ```
 
-### Formato al que quieres convertir. ***
+### Current format of the images in the folder. ***
 
 ```bash
   --toExt "webp"
 ```
 
-### Calidad de las imagenes (default = 50)
+### Image quality (default = 50)
 
 (min = 0 , max = 100)
 ```bash
@@ -62,7 +61,7 @@ Install the ``PILLOW`` library from Python
 ```
 
 
-## Ejemplo
+## Example
 
 ```bash
   python ./main.py --directory "../../Desktop/testImg" --fromExt "jpg" --toExt "webp" --quality 80
