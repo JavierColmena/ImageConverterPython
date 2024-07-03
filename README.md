@@ -37,7 +37,7 @@ Install the ``PILLOW`` library from Python
   --directory "./Images/"
 ```
 
-### Formato actual de las imagenes de la carpeta. ***
+### Current format of the images in the folder. ***
 
 ```bash
   --fromExt "png"
