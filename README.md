@@ -9,17 +9,26 @@
 Convertidor de imagenes dentro de un directorio.
 
 
-## COMANDOS
+## Get Started
 
-Help
+Install the ``PILLOW`` library from Python
 
 ```bash
-  -h
+  pip install pillow
+```
+```bash
+  python ./main.py -h
+```
+    
+## Comandos
+
+### Help
+
+```bash
+  python ./main.py -h
 ```
 
-Ubicar el directorio con las imagenes.*
-
--d // --directory
+### Ubicar el directorio con las imagenes. ***
 
 ```bash
   -d "./Images/"
@@ -29,19 +38,21 @@ Ubicar el directorio con las imagenes.*
   --directory "./Images/"
 ```
 
-Formato actual de las imagenes de la carpeta.*
+### Formato actual de las imagenes de la carpeta. ***
 
 ```bash
   --fromExt "png"
 ```
 
-Formato al que quieres convertir.*
+### Formato al que quieres convertir. ***
 
 ```bash
   --toExt "webp"
 ```
 
-Calidad de las imagenes
+### Calidad de las imagenes (default = 50)
+
+(min = 0 , max = 100)
 ```bash
   -q 50
 ```
@@ -51,9 +62,9 @@ Calidad de las imagenes
 ```
 
 
-## EJEMPLO
-##
+## Ejemplo
+
 ```bash
-  python ./main.py --directory "../../Desktop/testImg" --fromExt "jpg" --toExt "webp" --quality 50
+  python ./main.py --directory "../../Desktop/testImg" --fromExt "jpg" --toExt "webp" --quality 80
 ```
 
